@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="./chart.php" method="post">
+      <fieldset>
+        <legend>Create Chart</legend>
+        <div class="">
+          <label>Item Title</label>
+          <input type="text" name="title" />
+        </div>
+        <div class="">
+          <label>Item description</label>
+          <input type="text" name="description" />
+        </div>
+        <div class="">
+          <label>Item Price</label>
+          <input type="text" name="price" />
+        </div>
+        <button name="create_item">Submit</button>
+      </fieldset>
+    </form>
+    <form action="./list.php" method="get">
+      <button>Display Charts</button>
+    </form>
+  </body>
+</html>
